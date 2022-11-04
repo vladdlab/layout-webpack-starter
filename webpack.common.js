@@ -1,5 +1,6 @@
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const StylelintPlugin = require('stylelint-webpack-plugin')
 const path = require('path')
 
  module.exports = {
@@ -29,6 +30,9 @@ const path = require('path')
       title: 'Title',
       template: 'index.html',
     }),
+    new StylelintPlugin({
+      configFile: './.stylelintrc.json'
+    })
   ],
 
   module: {
