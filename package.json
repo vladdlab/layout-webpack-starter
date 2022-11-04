@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/vladdlab/layout-webpack-starter#readme",
   "devDependencies": {
+    "compression-webpack-plugin": "^10.0.0",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^4.2.2",
