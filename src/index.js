@@ -15,3 +15,4 @@ function createApp() {
 }
 
 createApp();
+cosnole.log('I get called from print.js!');
